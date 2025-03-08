@@ -1,4 +1,4 @@
-# Django Boilerplate with Docker Compose, Makefile, and PostgreSQL
+# FastAPI + Kafka DDD chat Application w\ MongoDB
 
 This is a basic template for Django projects configured to use Docker Compose, Makefile, and PostgreSQL.
 
@@ -24,4 +24,12 @@ This is a basic template for Django projects configured to use Docker Compose, M
 * `make app` - up application and database/infrastructure
 * `make app-logs` - follow the logs in app container
 * `make app-down` - down application and all infrastructure
+* `make app-shell` - go to contenerized interactive shell (bash)
+
+### Most Used Django Specific Commands
+
+* `make migrations` - make migrations to models
+* `make migrate` - apply all made migrations
+* `make collectstatic` - collect static
+* `make superuser` - create admin user
 * `make test` - test application with pytest
